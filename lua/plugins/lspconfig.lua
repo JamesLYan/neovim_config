@@ -63,7 +63,7 @@ function M.config()
   }
 
   local lspconfig = require "lspconfig"
-  local icons = require "user.icons"
+  local icons = require "plugins.icons"
 
   local servers = {
     "lua_ls",
